@@ -21,7 +21,7 @@ sudo systemctl enable docker
 docker --version
 
 #Manage Docker as a non-root user
-sudo usermod -aG docker root
+sudo usermod -aG docker $USER
 
 #Verify Docker service is running
-sudo systemctl status docker
+#sudo systemctl status docker
